@@ -40,16 +40,6 @@ app.post('/signedrequest', function (req, res) {
     });
 
 });
-app.get('/', function (req, res) {
-
-    console.log('called the Root Get')
-
-});
-app.post('/', function (req, res) {
-
-    console.log('called the Root Post')
-
-});
 
 app.set('port', process.env.PORT || 5000);
 
