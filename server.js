@@ -43,6 +43,7 @@ app.post('/signedrequest', function (req, res) {
 app.post('/', function (req, res) {
 
     res.render('index', {});
+
 });
 
 app.set('port', process.env.PORT || 5000);
