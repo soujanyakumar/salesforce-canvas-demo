@@ -32,7 +32,7 @@ app.post('/signedrequest', function (req, res) {
             }
         };
 
-    console.log('context from Signed Request : ' + context);
+    console.log('context from Signed Request : ' + JSON.stringify(context));
 
     request(contactRequest, function (err, response, body) {
         var qr = qrcode.qrcode(4, 'L'),
