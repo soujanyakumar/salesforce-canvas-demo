@@ -45,7 +45,7 @@ app.get('/', function (req, res) {
     console.log('called the Root Get')
 
 });
-app.get('/', function (req, res) {
+app.post('/', function (req, res) {
 
     console.log('called the Root Post')
 
