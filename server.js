@@ -40,9 +40,14 @@ app.post('/signedrequest', function (req, res) {
     });
 
 });
-app.post('/', function (req, res) {
+app.get('/', function (req, res) {
 
-    res.render('index', {});
+    console.log('called the Root Get')
+
+});
+app.get('/', function (req, res) {
+
+    console.log('called the Root Post')
 
 });
 
